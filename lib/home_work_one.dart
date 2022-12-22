@@ -408,7 +408,7 @@ class _HomeworkOneState extends State<HomeworkOne> {
                           "Gives ideas about",
                           style: TextStyle(fontSize: 16),),
                         Text(
-                          "funcations of FLUTTER",
+                          "funcations of FLUTTER. hello",
                           style: TextStyle(fontSize: 16),),
                         Text("by Shek Farid Uddin",),
                       ],

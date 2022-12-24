@@ -75,6 +75,7 @@ flutter:
     - assets/icon/
     - assets/icon/
     - assets/icon/
+    - assets/image/pexels-tranmautritam-326503.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -91,8 +92,9 @@ flutter:
   fonts:
     - family: Medeline
       fonts:
-        - asset: assets/font/Madeline.otf
         - asset: assets/font/Cavergiz.ttf
+        - asset: assets/font/Madeline.otf
+        - asset: assets/font/TaiHeritagePro-Regular.ttf
 
 
 

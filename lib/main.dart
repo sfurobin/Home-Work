@@ -4,10 +4,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'home_work_five.dart';
-import 'home_work_four.dart';
-import 'home_work_one.dart';
-import 'home_work_tree.dart';
 import 'home_work_two.dart';
+import 'custom_navbar.dart';
+import 'home_work_one.dart';
+import 'responsive.dart';
 
 void main() {
   runApp(const MyApp());
@@ -46,22 +46,22 @@ class _HomeState extends State<Home> {
                   ElevatedButton(onPressed: (){
                     Navigator.push(context, MaterialPageRoute(builder: (context)=>HomeworkOne()));
                   },
-                      child: Text("E-commerce1",style: Madeline,)),
+                      child: Text("Home Work One",style: Madeline,)),
 
                   SizedBox(height: 40,),
                   ElevatedButton(onPressed: (){
                     Navigator.push(context, MaterialPageRoute(builder: (context)=>HomeworkTwo()));
                   },
-                      child: Text("E-commerce2",style: Madeline,)),
+                      child: Text("Responsive Design",style: Madeline,)),
                   SizedBox(height: 40,),
                   ElevatedButton(onPressed: (){
                     Navigator.push(context, MaterialPageRoute(builder: (context)=>HomeworkTree()));
                   },
-                      child: Text("E-commerce3",style: Madeline,)),
+                      child: Text("Home Work Three",style: Madeline,)),
 
                   SizedBox(height: 40,),
                   ElevatedButton(onPressed: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>HomeworkFour()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>LandingPage()));
                   },
                       child: Text("E-commerce4",style: Madeline,)),
 
@@ -80,11 +80,19 @@ class _HomeState extends State<Home> {
 
 const Madeline = TextStyle(
     fontFamily: "Madeline",
-    fontSize: 35,
+    fontSize: 20,
+    color: Colors.white,
     fontWeight: FontWeight.w500
 );
 const Cavergiz = TextStyle(
     fontFamily: "Cavergiz",
     fontSize: 25,
+    color: Colors.white,
+    fontWeight: FontWeight.w500
+);
+const Taiheritage = TextStyle(
+    fontFamily: "Taiheritage",
+    fontSize: 25,
+    color: Colors.white,
     fontWeight: FontWeight.w500
 );
